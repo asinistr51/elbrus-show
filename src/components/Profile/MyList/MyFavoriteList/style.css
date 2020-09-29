@@ -1,0 +1,46 @@
+.containerGrid {
+  display: flex;
+  touch-action: none;
+  margin: 1rem auto;
+}
+
+.dropzone {
+  flex: 1 1;
+  height: 800px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 10px 25px;
+  border-radius: 1rem;
+  width: 50%;
+}
+
+.dropzone.left {
+  margin-right: 10px;
+}
+
+.grid-item {
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  
+}
+
+.grid-item-content {
+  width: 130px;
+  height: 80px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #8135D8;
+  border-radius: 3px;
+  padding: 5px;
+  cursor: grab;
+  font-size: 16px;
+  text-align: center;
+  
+}
+
+.undefined {
+  width: 33% !important; 
+}
